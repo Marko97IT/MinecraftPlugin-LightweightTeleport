@@ -1,0 +1,24 @@
+name: LightweightTeleport
+version: '${project.version}'
+main: com.marcoconcasdev.mc.lightweightteleport.LightweightTeleport
+api-version: '1.20'
+authors: [Marco Concas]
+description: A lightweight plugin that consent players to teleport over the world
+commands:
+  sethome:
+    description: Set an home with a name
+  home:
+    description: Teleport to a saved home
+  delhome:
+    description: Delete a saved home
+  back:
+    description: Teleport to the previously location
+permissions:
+  ltp.command.sethome:
+    default: not op
+  ltp.command.home:
+    default: not op
+  ltp.command.delhome:
+    default: not op
+  ltp.command.back:
+    default: not op
