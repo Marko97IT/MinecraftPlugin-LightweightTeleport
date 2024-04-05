@@ -32,8 +32,8 @@ public class ConfigurationHandler implements IConfigurationHandler {
         _configuration.addDefault("strings.tp_request_expired", "Your teleport request to §b%player%§r is expired.");
         _configuration.addDefault("strings.tp_request_banned", "Cannot send the teleport request because §b%player%§r does not want to receive requests from you.");
         _configuration.addDefault("strings.tp_request_no_pending", "You don't have any pending requests.");
-        _configuration.addDefault("strings.tp_received_request_ltp", "§b%player%§r requested to teleport to you.\n\nDigit §6/ltp accept§r to accept or §6/ltp decline§r to decline.\nIf you do not wish to receive further requests from a user, digit §6/ltpban <username>§r.");
-        _configuration.addDefault("strings.tp_received_request_ltphere", "§b%player%§r requested to teleport you to him/her.\n\nDigit §6/ltp accept§r to accept or §6/ltp decline§r to decline.\nIf you do not wish to receive further requests from a user, digit §6/ltpban <username>§r.");
+        _configuration.addDefault("strings.tp_received_request_ltp", "§b%player%§r requested to teleport to you.\n\nDigit §6/ltp accept§r to accept or §6/ltp decline§r to decline.\nIf you do not wish to receive further requests from a user, digit §6/ltp ban <username>§r.");
+        _configuration.addDefault("strings.tp_received_request_ltphere", "§b%player%§r requested to teleport you to him/her.\n\nDigit §6/ltp accept§r to accept or §6/ltp decline§r to decline.\nIf you do not wish to receive further requests from a user, digit §6/ltp ban <username>§r.");
         _configuration.addDefault("strings.tp_delay", "Please wait §b%seconds%§r seconds before being teleported.");
         _configuration.addDefault("strings.tp_canceled_move", "Your teleport request was canceled because you moved.");
         _configuration.addDefault("strings.tp_canceled_pvp", "Your teleport request was canceled because you are fighting.");
